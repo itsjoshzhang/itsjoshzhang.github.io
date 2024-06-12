@@ -467,7 +467,7 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
   highlightjs:
     integrity:
       css:
@@ -614,13 +614,13 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
 jsonresume:
   - basics
-  - work
+  - experience
   - education
   - publications
   - projects
   - volunteer
   - awards
-  - certificates
+  - courses
   - skills
   - languages
   - interests

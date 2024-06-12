@@ -17,6 +17,12 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 hr {
