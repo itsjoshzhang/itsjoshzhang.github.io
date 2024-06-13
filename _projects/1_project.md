@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: EE 198-016
+description: "DeCal: Introduction to Startup Life"
+img: assets/img/1.png
 importance: 1
-category: work
+category: Teaching
 ---
 
 Every project has a beautiful feature showcase page.
