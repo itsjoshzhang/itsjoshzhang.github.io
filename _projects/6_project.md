@@ -5,5 +5,5 @@ description: Computer Architecture (Machine Structures)
 img: assets/img/6.png
 redirect: https://cs61c.org/sp24/
 importance: 6
-category: Taken
+category: Courses Taken
 ---
