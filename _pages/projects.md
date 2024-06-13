@@ -28,13 +28,13 @@ nav_order: 2
   {% include repository/repo_trophies.liquid username=user %}
   </div>
 
---- -->
+---
 
 {% endfor %}
 {% endif %}
 {% endif %}
 
-## GitHub Repositories
+-->
 
 {% if site.data.repositories.github_repos %}
 
