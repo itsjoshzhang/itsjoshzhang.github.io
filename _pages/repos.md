@@ -6,35 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-<!-- ## GitHub users -->
-
-<!-- {% if site.data.repositories.github_users %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
--->
+Most of my project repositories are private. Please contact [joshzhang@berkeley.edu](mailto:joshzhang@berkeley.edu) for more info. While you're here, go check out [my Github](https://github.com/itsjoshzhang) and [my Linkedin](https://www.linkedin.com/in/itsjoshzhang/) for quick links to my work.
 
 {% if site.data.repositories.github_repos %}
 

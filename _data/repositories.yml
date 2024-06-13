@@ -2,10 +2,9 @@ github_users:
   - itsjoshzhang
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - itsjoshzhang/FogROS2
+  - itsjoshzhang/AlphaGarden
+  - itsjoshzhang/GamesmanUni
+  - itsjoshzhang/GamesmanPuzzles
+  - itsjoshzhang/Racing-LMPC
+  - itsjoshzhang/Dragon-Dataset
