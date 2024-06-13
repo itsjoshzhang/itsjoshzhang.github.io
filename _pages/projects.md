@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
+permalink: /projects/ 
 nav: true
 nav_order: 1
 display_categories: [Current Work, Courses Taken]
