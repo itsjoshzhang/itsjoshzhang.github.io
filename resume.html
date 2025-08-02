@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josh Zhang</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦾</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./pfp.jpg" width="80">
+        </figure>
+
+        <div class="info-content">
+          <p class="title">Josh Zhang</p>
+          <p class="name">EECS @ UC Berkeley</p>
+        </div>
+
+        <a href="https://www.linkedin.com/in/itsjoshzhang/" class="info_more-btn" target="_blank">
+          <span>Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </a>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:joshzhang@berkeley.edu" class="contact-link" target="_blank">joshzhang@berkeley.edu</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Linkedin</p>
+              <a href="https://www.linkedin.com/in/itsjoshzhang/" class="contact-link" target="_blank">linked.in/itsjoshzhang</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Github</p>
+              <a href="https://www.github.com/itsjoshzhang/" class="contact-link" target="_blank">github.com/itsjoshzhang</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Google Scholar</p>
+              <a href="https://scholar.google.com/citations?user=Q4sM-HcAAAAJ&hl=en" class="contact-link" target="_blank">Last Published: May 2025</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-link">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./resume.html" class="navbar-link  active">Resume</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="https://www.linkedin.com/in/itsjoshzhang/" class="navbar-link" target="_blank">Portfolio</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume  active" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Berkeley AI Research (BAIR)</h4>
+              <span>Robotics and Automation Engineer</span>
+              <p class="timeline-text">
+                Spearheaded research and publications in robot manipulation & model training acceleration with Ken Goldberg.
+              </p>
+              <p class="timeline-text">
+                Developed compression system achieving 70x cost reduction in transferring video data across 21+ research labs.
+              </p>
+              <p class="timeline-text">
+                Proficient in software/hardware stack of 7 bimanual, humanoid, quadruped robots with 200+ experiment hours.
+              </p>
+              <p class="timeline-text">
+                Key skills: VLMs, ROS, neural networks, reinforcement learning, data augmentation, cloud robotics, sim-to-real.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">TikTok</h4>
+              <span>Media Architecture Engineer Intern</span>
+              <p class="timeline-text">
+                Solely deployed five full-stack features optimizing the end-to-end post lifecycle for all 2 billion users worldwide.
+              </p>
+              <p class="timeline-text">
+                Patched major security vulnerability found in 500,000 video uploads in collaboration with multiple safety teams.
+              </p>
+              <p class="timeline-text">
+                Enhanced frame extraction, transcoding, API authentication pipelines, saving ~20 hours/week for a team of 12.
+              </p>
+              <p class="timeline-text">
+                Key skills: Software development, server infrastructure, global product deployment, Agile project management.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">GamesCrafters</h4>
+              <span>Computer Vision and GPU Lead</span>
+              <p class="timeline-text">
+                Supervised 3 team projects in CV, Perception, GPU architecture for a computational game theory research lab.
+              </p>
+              <p class="timeline-text">
+                Designed AR/VR web and mobile app displaying live on-board analysis of best moves, extensible to 100 games.
+              </p>
+              <p class="timeline-text">
+                Reengineered sequential solver algorithm to run vectorized and parallel on cloud GPUs, achieving 30x speedup.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Model Predictive Control Lab</h4>
+              <span>Machine Learning and Robotics Lead</span>
+              <p class="timeline-text">
+                Directed research in reinforcement learning and high-speed (20 mph) autonomous racing on scale-model cars.
+              </p>
+              <p class="timeline-text">
+                Implemented vision-action models & controllers for motion planning and low-visibility (2ft) obstacle avoidance.
+              </p>
+              <p class="timeline-text">
+                Experience in bridging sim-to-real gap, from 3D modeling and OpenAI Gym simulations to physical race tracks.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">University of California, Berkeley</h4>
+              <span>B.S. Electrical Engineering and Computer Sciences</span>
+              <p class="timeline-text">GPA: 3.95 &nbsp | &nbsp Honors: Eta Kappa Nu (HKN)<p>
+              <p class="timeline-text">&nbsp</p>
+              
+              <span>EECS 151: Digital Design and ICs</span>
+              <p class="timeline-text">
+                Built and optimized a 5-stage Risc-V processor from scratch in Verilog for ASIC tapeout. 5-month solo project.
+              </p>
+              <p class="timeline-text">
+                Parallelism and pipelining, FPGA & ASIC digital modules, cache & memory design, industrial verification tools.
+              </p>
+              <p class="timeline-text">&nbsp</p>
+
+              <span>EE 105: Microelectronic Devices</span>
+              <p class="timeline-text">
+                Expanded sensing and control ability (LiDAR, PID) of self-engineered voice-controlled robot car from EE16B.
+              </p>
+              <p class="timeline-text">
+                Analog ICs, multistage CMOS, semiconductor fabrication, small/large-signal amplifiers, area/power/reliability.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <span>Other Courses</span>
+              <p class="timeline-text">
+                CS 61B: Data Structures and Algorithms<br>
+                CS 182: Deep Neural Networks<br>
+                CS 189: Machine Learning<br>
+                
+                EE 106: Robotic Manipulation and Interaction<br>
+                CS 152: Computer Architecture<br>
+                EE 120: Signals and Systems<br>
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Publications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Robo-DM: Data Management For Large Robot Datasets</h4>
+              <span>
+                Best paper winner of 2025 ICRA: IEEE International Conference on Robotics and Automation.
+              </span>
+              <p class="timeline-text">Chen K, Fu L, Zhang Y, Goldberg K, et. al.<p>
+              <a href="https://doi.org/10.48550/arXiv.2505.15558" target="_blank">Available Here.</a>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">HANDLOOM 3.0: Interactive Bi-Directional Cable Tracing Amid Clutter</h4>
+              <span>
+                Submitted to 2025 IROS: IEEE/RSJ International Conference on Intelligent Robots and Systems.
+              </span>
+              <p class="timeline-text">Yu J, Zhang Y, Goldberg K, et. al.<p>
+              <a href="https://deformable-workshop.github.io/icra2025/spotlight/02_07_16_Shivakumar_HANDLOOM.pdf" target="_blank">Available Here.</a>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Skills</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Languages</h4>
+              <p>
+                Python, Go, C, C++, C#, CUDA, System Verilog, Java, Swift, Javascript, HTML, CSS, SQL, Rust
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software</h4>
+              <p>
+                PyTorch, TensorFlow, ROS, OpenCV, Redis, Docker, AWS, Azure, Google Cloud, Node, React, Next
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Hardware</h4>
+              <p>
+                Robotics, GPU, ASIC, FPGA, System on Chip, Design & Verification, Spatial & Cache Architecture
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Workflow</h4>
+              <p>
+                Git, Jira, JetBrains, Visual Studio Code, Microsoft Office. APIs: ChatGPT, Claude, Gemini, Llama
+              </p>
+            </li>
+
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

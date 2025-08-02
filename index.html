@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josh Zhang</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦾</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./pfp.jpg" width="80">
+        </figure>
+
+        <div class="info-content">
+          <p class="title">Josh Zhang</p>
+          <p class="name">EECS @ UC Berkeley</p>
+        </div>
+
+        <a href="https://www.linkedin.com/in/itsjoshzhang/" class="info_more-btn" target="_blank">
+          <span>Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </a>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:joshzhang@berkeley.edu" class="contact-link" target="_blank">joshzhang@berkeley.edu</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Linkedin</p>
+              <a href="https://www.linkedin.com/in/itsjoshzhang/" class="contact-link" target="_blank">linked.in/itsjoshzhang</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Github</p>
+              <a href="https://www.github.com/itsjoshzhang/" class="contact-link" target="_blank">github.com/itsjoshzhang</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Google Scholar</p>
+              <a href="https://scholar.google.com/citations?user=Q4sM-HcAAAAJ&hl=en" class="contact-link" target="_blank">Last Published: May 2025</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-link  active">About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./resume.html" class="navbar-link">Resume</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="https://www.linkedin.com/in/itsjoshzhang/" class="navbar-link" target="_blank">Portfolio</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">Welcome...</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            ... to my website. My work focuses on the applications of Machine Learning for Robotics and Chip Design.<br>
+            I studied Electrical Engineering and Computer Science at UC Berkeley. I'm experienced in bridging layers<br>
+            across the Hardware/Software stack and developing digital systems that tackle physical problems.
+          </p>
+          <p>
+            If you're a VC or fellow founder, reach out to me directly for a call about my current ventures in Robotics.<br>
+            If you're a recruiter, I will be your unicorn willing to trade executive-level ideas for good company food.<br>
+            If you're in academia, check out my resume or publications below for research I'm passionate about.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="icon-box">
+                <ion-icon name="logo-electron"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+                <p class="service-item-text">
+                  Bringing the tech on San Francisco billboards to real-world applications.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="icon-box">
+                <ion-icon name="logo-steam"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Robotics & Automation</h4>
+                <p class="service-item-text">
+                  Robot-aided surgery, cloud robotics platforms, & autonomous navigation.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="icon-box">
+                <ion-icon name="hardware-chip-outline"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hardware Acceleration</h4>
+                <p class="service-item-text">
+                  System on Chip design, verification, and fabrication on ASICs and FPGAs.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="icon-box">
+                <ion-icon name="logo-tiktok"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">App Development</h4>
+                <p class="service-item-text">
+                  Full-stack & server-side deployment, building TikTok and personal projects.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <!--
+          - publications
+        -->
+
+        <section class="about-text">
+          <h3 class="h3 service-title">Publications</h3>
+          <p>
+            <b>Robo-DM: Data Management For Large Robot Datasets.</b> Chen K, Fu L, Zhang Y, Goldberg K, et. al.<br>
+            <i> <b> Best paper winner of 2025 ICRA: </b> IEEE International Conference on Robotics and Automation.</i>
+            <a href="https://doi.org/10.48550/arXiv.2505.15558" target="_blank">Available Here.</a>
+          </p>
+          <p>
+            <b>HANDLOOM 3.0: Interactive Bi-Directional Cable Tracing Amid Clutter.</b> Yu J, Zhang Y, Goldberg K, et. al. <br>
+            <i> Submitted to 2025 IROS: IEEE/RSJ International Conference on Intelligent Robots and Systems.</i>
+            <a href="https://deformable-workshop.github.io/icra2025/spotlight/02_07_16_Shivakumar_HANDLOOM.pdf" target="_blank">Available Here.</a>
+          </p>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
