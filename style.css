@@ -17,7 +17,6 @@
    * typography
    */
 
-  /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
 
   /* font-size */
@@ -215,12 +214,6 @@ article.active {
   z-index: -1;
 }
 
-
-
-/*-----------------------------------*\
-  #MAIN
-\*-----------------------------------*/
-
 main {
   margin: 15px 12px;
   margin-bottom: 75px;
@@ -378,14 +371,16 @@ main {
 
 .navbar-link {
   color: var(--white);
-  font-size: var(--fs-8);
+  font-size: var(--fs-4);
   padding: 20px 7px;
   transition: color var(--transition-1);
+  font-weight: var(--fw-500);
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--gold); }
-.navbar-link.active { color: var(--gold); }
+.navbar-link.active {
+  color: var(--gold);
+}
 
 
 
@@ -657,8 +652,6 @@ main {
 
   .navbar-list { gap: 20px; }
 
-  .navbar-link { --fs-8: 14px; }
-
 
 
   /**
@@ -728,14 +721,6 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
-
-
-
-  /**
-   * NAVBAR
-   */
-
-  .navbar-link { --fs-8: 15px; }
 
 }
 
@@ -811,15 +796,11 @@ main {
     padding: 0 20px;
   }
 
-  .navbar-link { font-weight: var(--fw-500); }
-
 
 
   /**
    * ABOUT
    */
-
-  /* service */
 
   .service-list {
     grid-template-columns: 1fr 1fr;
